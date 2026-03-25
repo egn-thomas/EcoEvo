@@ -1,0 +1,16 @@
+TODO : Étapes de développement
+
+[ ] Phase 1 : Le Squelette (Static)
+
+- Créer la classe Creature de base (un cercle qui s'affiche).
+- Créer le World qui contient une liste (std::vector) de créatures.
+
+[ ] Phase 2 : Intégration NEAT
+
+- Intégrer une lib NEAT (ex: MultiNEAT ou tiny-neat).
+- Relier les sorties du réseau de neurones aux fonctions move() de la créature.
+
+[ ] Phase 3 : Évolutivité
+
+- Implémenter le système de Stats (vitesse, taille) pour que NEAT puisse aussi faire évoluer le corps, pas seulement le cerveau.
+- Ajouter le système de sauvegarde JSON pour "exporter" un champion.
